@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 1dcd8e60b4fb65b468956c61c072bd1c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Linux Libertine
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 14175c92e83bfb24d8f5bf2a515060b1, type: 3}
+  - {fileID: 12800000, guid: 600432a172fc0eb488a766595da1895a, type: 3}
+  - {fileID: 12800000, guid: 79f89f903d4811842baf4966629cf5a2, type: 3}
+  - {fileID: 12800000, guid: db48cd7bd15c1954fb500e338668ef4d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
