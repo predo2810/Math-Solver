@@ -1,16 +1,6 @@
-using UnityEngine;
-
-public class Identifier : MonoBehaviour
+public class Identifier
 {
-    [SerializeField]
-    string Equation;
-
-    void Start()
-    {
-        Debug.Log(CheckEquation(Equation));
-    }
-
-    public bool CheckEquation(string Equation)
+    public static bool CheckEquation(string Equation)
     {
         bool IsFirst = false;
 

@@ -15,11 +15,11 @@ C:/Users/Pedro/Desktop/Solver/Math-Solver/Math Solver
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60993
+60037
 Successfully changed project path to: C:/Users/Pedro/Desktop/Solver/Math-Solver/Math Solver
 C:/Users/Pedro/Desktop/Solver/Math-Solver/Math Solver
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 100.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 166.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
@@ -37,92 +37,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002771 seconds.
+Registered in 0.002821 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 99.06 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 225.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.608 seconds
+- Completed reload, in  1.955 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1608ms)
-		BeginReloadAssembly (243ms)
+	ReloadAssembly (1956ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1191ms)
-			LoadAssemblies (239ms)
+		EndReloadAssembly (1646ms)
+			LoadAssemblies (134ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (372ms)
+			SetupTypeCache (512ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (520ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (484ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (99ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (263ms)
-				ProcessInitializeOnLoadMethodAttributes (103ms)
+				RefreshPlugins (225ms)
+				BeforeProcessingInitializeOnLoad (27ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006967 seconds.
+Registered in 0.006591 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 116.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 148.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.451 seconds
+- Completed reload, in  3.908 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2453ms)
-		BeginReloadAssembly (315ms)
+	ReloadAssembly (3910ms)
+		BeginReloadAssembly (304ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (2018ms)
-			LoadAssemblies (227ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (3468ms)
+			LoadAssemblies (226ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (685ms)
+			SetupTypeCache (751ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (103ms)
-			SetupLoadedEditorAssemblies (788ms)
+			RebuildScriptCaches (139ms)
+			SetupLoadedEditorAssemblies (2108ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (116ms)
-				BeforeProcessingInitializeOnLoad (212ms)
-				ProcessInitializeOnLoadAttributes (414ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (149ms)
+				BeforeProcessingInitializeOnLoad (196ms)
+				ProcessInitializeOnLoadAttributes (1700ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.34 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.0 MB.
-System memory in use after: 96.9 MB.
+Unloading 3310 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 141.1 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2630.
-Total: 5.821558 ms (FindLiveObjects: 0.429714 ms CreateObjectMapping: 0.108912 ms MarkObjects: 5.004718 ms  DeleteObjects: 0.275771 ms)
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3742.
+Total: 9.941366 ms (FindLiveObjects: 0.754356 ms CreateObjectMapping: 0.206305 ms MarkObjects: 8.651177 ms  DeleteObjects: 0.327434 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -136,502 +136,784 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df75b7d1a31c5b4f73fd45661b403b04') in 0.029856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
   path: Assets/Scenes/Main.unity
   artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9116a2d95f90e7fe8f2e5e521d820aa') in 0.020476 seconds 
+Start importing Assets/Scenes/Main.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39bd6c64b61ec57756cd6e4df22df9e') in 0.020733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 765.438862 seconds.
+  path: Assets/Graphics/Fonts
+  artifactKey: Guid(714c37645bd2b984eb98cc7e7f7d232f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts using Guid(714c37645bd2b984eb98cc7e7f7d232f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6833d18032123de0b683b372c14042ff') in 0.039360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.672018 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine
+  artifactKey: Guid(fda2d90940fe5184cb2609c5736c1596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine using Guid(fda2d90940fe5184cb2609c5736c1596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7186313d51981496e49aa38bf39dc2f') in 0.035004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031618 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aBL.ttf
+  artifactKey: Guid(0a81605cba3a031448cb7d7d4619677d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aBL.ttf using Guid(0a81605cba3a031448cb7d7d4619677d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2681ec75169923aeb1edff0503a0124') in 0.374684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078268 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aBS.ttf
+  artifactKey: Guid(748809171cd7231458b4a27684b32bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aBS.ttf using Guid(748809171cd7231458b4a27684b32bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c277d3898098108ded53aefac32b5f') in 0.164443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000614 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aZL.ttf
+  artifactKey: Guid(6c98da2985eb8fa46907b4db80a2b83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aZL.ttf using Guid(6c98da2985eb8fa46907b4db80a2b83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79940d22207d0d59b10e674631d2faf') in 0.101460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RBI.ttf
+  artifactKey: Guid(14175c92e83bfb24d8f5bf2a515060b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RBI.ttf using Guid(14175c92e83bfb24d8f5bf2a515060b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad131d8ea5912559e70ba8e03f43cc6') in 0.108606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aRL.ttf
+  artifactKey: Guid(d636d80695b02ab4fa3f88faf538a16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aRL.ttf using Guid(d636d80695b02ab4fa3f88faf538a16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93c019d4c99667102333c96e00806a0') in 0.147226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RB.ttf
+  artifactKey: Guid(1dcd8e60b4fb65b468956c61c072bd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RB.ttf using Guid(1dcd8e60b4fb65b468956c61c072bd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2780414de561a691c057036e82f0368e') in 0.122206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RZI.ttf
+  artifactKey: Guid(600432a172fc0eb488a766595da1895a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RZI.ttf using Guid(600432a172fc0eb488a766595da1895a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bdeabcf5e3e6a35f6530af860e73ca') in 0.087493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006780 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_I.ttf
+  artifactKey: Guid(af4cd121852bc68459bda2096deb7478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_I.ttf using Guid(af4cd121852bc68459bda2096deb7478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a39888edd5020dfe0aa75bff17c367') in 0.100462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005392 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_R.ttf
+  artifactKey: Guid(2ebd6256a5e70cb4cae8a60ec915bef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_R.ttf using Guid(2ebd6256a5e70cb4cae8a60ec915bef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15210a4cbaac35888130416a714bb96') in 0.140892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSZI.ttf
+  artifactKey: Guid(aadfa329de5c86a4084043350458a26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSZI.ttf using Guid(aadfa329de5c86a4084043350458a26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250abe8cd8217b75846aea19b528cd70') in 0.113870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSI.ttf
+  artifactKey: Guid(f0fd8c4b8c7441c47bf92592f71a37df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSI.ttf using Guid(f0fd8c4b8c7441c47bf92592f71a37df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f744405063e3c4b676941021b2eed9') in 0.119821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000586 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aS.ttf
+  artifactKey: Guid(198b8b37a156d2540841173f0aa38606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aS.ttf using Guid(198b8b37a156d2540841173f0aa38606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3238afd44371f0bf71bac7dddb705e') in 0.128348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004982 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aDRS.ttf
+  artifactKey: Guid(f4691470f34b4e04d825efe983c040fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aDRS.ttf using Guid(f4691470f34b4e04d825efe983c040fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd825b9f4986b17833b6475e2a7a5f509') in 0.074550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RZ.ttf
+  artifactKey: Guid(79f89f903d4811842baf4966629cf5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RZ.ttf using Guid(79f89f903d4811842baf4966629cf5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e8181a1cbe6015231cb4d2ddde90d3') in 0.057713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RI.ttf
+  artifactKey: Guid(db48cd7bd15c1954fb500e338668ef4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RI.ttf using Guid(db48cd7bd15c1954fb500e338668ef4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40f362c383538ac6d139d7a964ba256') in 0.068138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_DR.ttf
+  artifactKey: Guid(3a06ce04d886c5040bcca6012f83bd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_DR.ttf using Guid(3a06ce04d886c5040bcca6012f83bd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1b32bca0f2622948a5d5fbc05ede59') in 0.060026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.319216 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/TMPro
+  artifactKey: Guid(3cb5a54a0cf45e54fb5e8ebc73f9fd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/TMPro using Guid(3cb5a54a0cf45e54fb5e8ebc73f9fd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e255eb9aef6e61dbdda148b3381ad468') in 0.056413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.005738 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aBL SDF.asset
+  artifactKey: Guid(d88e0889376cff54b869198b3410978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aBL SDF.asset using Guid(d88e0889376cff54b869198b3410978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'c600dd138033fba03ac1bf546cb4a8f4') in 0.184485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_R SDF.asset
+  artifactKey: Guid(3f69fb062ebb1bb4fa18abaad0a635ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_R SDF.asset using Guid(3f69fb062ebb1bb4fa18abaad0a635ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '42ab5418e012edffd6a93cfc542ab56c') in 0.147946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSZI SDF.asset
+  artifactKey: Guid(c242835cc3d25494183c125c3895f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSZI SDF.asset using Guid(c242835cc3d25494183c125c3895f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '0ca902ddfb589e35ddfd94a300f13137') in 0.157700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSI SDF.asset
+  artifactKey: Guid(f807f9a15819b08419512822f2876e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSI SDF.asset using Guid(f807f9a15819b08419512822f2876e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '3aef9be575e3e6000a8f6476f627a548') in 0.135629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RI SDF.asset
+  artifactKey: Guid(0e61e13f99da9e2469e4ce8d401ef6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RI SDF.asset using Guid(0e61e13f99da9e2469e4ce8d401ef6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '997470815b0d13037867b4f3fbcb46b8') in 0.127050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_DR SDF.asset
+  artifactKey: Guid(8dd73859e7bf07146b866a4f1f8640cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_DR SDF.asset using Guid(8dd73859e7bf07146b866a4f1f8640cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'f9ebde119086de69e1e21955d480196f') in 0.136356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000751 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aRL SDF.asset
+  artifactKey: Guid(d9709a2381c96f74e90df0f0f9d3f6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aRL SDF.asset using Guid(d9709a2381c96f74e90df0f0f9d3f6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'ec34f33c049ce8391494ef77a9cd64dd') in 0.113392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002188 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RZ SDF.asset
+  artifactKey: Guid(d365bb98833b9f14ca5d0ad929128401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RZ SDF.asset using Guid(d365bb98833b9f14ca5d0ad929128401) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '2686502a6e637e3123132b10117e39bd') in 0.138957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aBS SDF.asset
+  artifactKey: Guid(b8d7e176c56e3be42991119b90f03c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aBS SDF.asset using Guid(b8d7e176c56e3be42991119b90f03c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '1fc4095f01c862476b7d582be951931e') in 0.149696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004959 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aS SDF.asset
+  artifactKey: Guid(7f0dd49b65f9f7643af022be71aff3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aS SDF.asset using Guid(7f0dd49b65f9f7643af022be71aff3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '2c550fa62d89986e810245f986659c1c') in 0.127918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000900 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aDRS SDF.asset
+  artifactKey: Guid(945215ea8ffcd3446b4de2935e6ed44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aDRS SDF.asset using Guid(945215ea8ffcd3446b4de2935e6ed44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'e229e38df99ddc57d2910408d211c3fc') in 0.121625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_I SDF.asset
+  artifactKey: Guid(d84e1a94a6b050e46aa058c53b9670dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_I SDF.asset using Guid(d84e1a94a6b050e46aa058c53b9670dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '1bf5d9e13a03e27c37b660b531a526dc') in 0.126648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RBI SDF.asset
+  artifactKey: Guid(72f269e2fc147e04eacae140e01ec925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RBI SDF.asset using Guid(72f269e2fc147e04eacae140e01ec925) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '3236cca4918d647ba83b89e0e10a8781') in 0.134063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010189 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aZL SDF.asset
+  artifactKey: Guid(be6127d7d7cd4794ab1a817f05fb3e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aZL SDF.asset using Guid(be6127d7d7cd4794ab1a817f05fb3e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '88c0ace6100f4cb9c9bcc8d645553c11') in 0.162975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007245 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RZI SDF.asset
+  artifactKey: Guid(0f972585bf3f8874db28082c2a4154d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RZI SDF.asset using Guid(0f972585bf3f8874db28082c2a4154d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '8c81c76a3a8e6a5aa333445374d1e3c8') in 0.173540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RB SDF.asset
+  artifactKey: Guid(b3fcd8cf0dfaf834faff7dd5db727480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RB SDF.asset using Guid(b3fcd8cf0dfaf834faff7dd5db727480) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '1529adfff3b6fceddd1928328c487c67') in 0.120634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.708668 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSZI SDF 1.asset
+  artifactKey: Guid(1aa69dd2249e81943b5a446bd59d2344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSZI SDF 1.asset using Guid(1aa69dd2249e81943b5a446bd59d2344) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'dc26152182325c20f2869e7483cfece4') in 0.105441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008596 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aRL SDF 1.asset
+  artifactKey: Guid(daf942cf89a22c645864a39af5a759fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aRL SDF 1.asset using Guid(daf942cf89a22c645864a39af5a759fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '9b7efbf78f3c767305829904cf85685a') in 0.194716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.003401 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aDRS SDF 1.asset
+  artifactKey: Guid(bde9f72a00b42824aa1651ad2b422e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aDRS SDF 1.asset using Guid(bde9f72a00b42824aa1651ad2b422e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '9e0cb186d5fbfe49c34b8e7ed2bcb1c7') in 0.172079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008829 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSZI 1.ttf
+  artifactKey: Guid(7cc14cd9616cab1439e64fcacba80970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSZI 1.ttf using Guid(7cc14cd9616cab1439e64fcacba80970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ca6f1ec68dad9cccaa9e2e4b31bab2') in 0.087056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007798 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aS SDF 2.asset
+  artifactKey: Guid(91c09635aed1dfd40bd1a2778a3b917a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aS SDF 2.asset using Guid(91c09635aed1dfd40bd1a2778a3b917a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '6eaaff658c3ccf6e7302e9478c188b46') in 0.121333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001119 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSZI SDF 2.asset
+  artifactKey: Guid(145af64acc8d0fa4f913bf4ea6a7decc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSZI SDF 2.asset using Guid(145af64acc8d0fa4f913bf4ea6a7decc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '0f79581262274a2e8b2e131f6cecb003') in 0.129724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RBI SDF 2.asset
+  artifactKey: Guid(a0cd1a9cf4b864e479f758c6e450780d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RBI SDF 2.asset using Guid(a0cd1a9cf4b864e479f758c6e450780d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'd81f2924d5654207b5dbfde4ebb85ad9') in 0.137531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_DR SDF 1.asset
+  artifactKey: Guid(530595c7d3c70bf4386ee1f6f240f36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_DR SDF 1.asset using Guid(530595c7d3c70bf4386ee1f6f240f36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '3e454e5909a19068d953c23ded863487') in 0.119066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aS SDF 1.asset
+  artifactKey: Guid(7eb575c6d115e414b85b33e2de20e263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aS SDF 1.asset using Guid(7eb575c6d115e414b85b33e2de20e263) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '650c1d0b9a5a9b96e557a69d25cf4727') in 0.261722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001323 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aRL SDF 2.asset
+  artifactKey: Guid(34b24380d5fb0d64a8a9ed7239ac7ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aRL SDF 2.asset using Guid(34b24380d5fb0d64a8a9ed7239ac7ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'dd6aad9d9bffb3836ad236bf1c032763') in 0.098117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000776 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RBI SDF 1.asset
+  artifactKey: Guid(c52448bad552bca44af7bd2cc0abedd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RBI SDF 1.asset using Guid(c52448bad552bca44af7bd2cc0abedd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'f6dbb103889fde4b1a038e79522cd616') in 0.132244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000704 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aZL SDF 2.asset
+  artifactKey: Guid(ba1ea4bae25f92d47a7fc3f0326e90c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aZL SDF 2.asset using Guid(ba1ea4bae25f92d47a7fc3f0326e90c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '5e192c1d5abd24aaee36a0a297c706de') in 0.137552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aDRS SDF 2.asset
+  artifactKey: Guid(dd54c3e70b61c1f4f8269da0449553e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aDRS SDF 2.asset using Guid(dd54c3e70b61c1f4f8269da0449553e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'e0508b43d1c9be77939b9760894c74bf') in 0.133950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RB SDF 2.asset
+  artifactKey: Guid(68b3f7d906e92e94b881f8a09141dd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RB SDF 2.asset using Guid(68b3f7d906e92e94b881f8a09141dd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'cc72aeabeecfac5bb078ed9a8dcb99c2') in 0.106749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSI SDF 2.asset
+  artifactKey: Guid(fe81d7ef8351ca045871d416d9c7a34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSI SDF 2.asset using Guid(fe81d7ef8351ca045871d416d9c7a34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '01f568e4f3a3f8ff775cbb2bd0ca5b1d') in 0.139383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003067 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RB SDF 1.asset
+  artifactKey: Guid(10e58cb6d0cb409499047edcb87db5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RB SDF 1.asset using Guid(10e58cb6d0cb409499047edcb87db5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '0981d3c2b341a4acc7ab7796a7cc282b') in 0.129686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003406 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_DR SDF 2.asset
+  artifactKey: Guid(7b3d72f03c7cc22479282662412e029a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_DR SDF 2.asset using Guid(7b3d72f03c7cc22479282662412e029a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'aaf3943c443c4b76e4681726fe7242b8') in 0.151800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024568 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aZL SDF 1.asset
+  artifactKey: Guid(f3c6442055565114eb924d894dda3c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aZL SDF 1.asset using Guid(f3c6442055565114eb924d894dda3c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '74f79cd674fedd022c9732fd43d7b16a') in 0.158571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RZI SDF 1.asset
+  artifactKey: Guid(d25451a101607a346922d7bbfd21a253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RZI SDF 1.asset using Guid(d25451a101607a346922d7bbfd21a253) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '081596df3d144d8e7491dfa37bb93769') in 0.154793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001085 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSI SDF 1.asset
+  artifactKey: Guid(50a251faafe894f4cbf40b04d4516864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSI SDF 1.asset using Guid(50a251faafe894f4cbf40b04d4516864) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '2025e947bc9e3a0a351915a419a93ab3') in 0.138262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.625763 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aBL SDF 1.asset
+  artifactKey: Guid(51b43cfc5d5dd214691003623f436d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aBL SDF 1.asset using Guid(51b43cfc5d5dd214691003623f436d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'ea49b53d075911455124db92611f5a41') in 0.089206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aBS SDF 1.asset
+  artifactKey: Guid(db9342f191380de44967d315803d3af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aBS SDF 1.asset using Guid(db9342f191380de44967d315803d3af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '25a28f127ad6df58f5f1bf0bfaf4f285') in 0.126730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036385 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aBS SDF 2.asset
+  artifactKey: Guid(a8e7d350cdc983142bd10f5c1680a3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aBS SDF 2.asset using Guid(a8e7d350cdc983142bd10f5c1680a3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '0fc646744ed31fc78d7ff3d8fce2372d') in 0.117917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016535 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aBL SDF 2.asset
+  artifactKey: Guid(6b3a2e4aad6b3a446916f2c263f88ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aBL SDF 2.asset using Guid(6b3a2e4aad6b3a446916f2c263f88ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '3cf449c674755a85bb0db8aa4579b379') in 0.118239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.103020 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80217e6c75f9d2e4957cbc8093faaf48') in 0.102698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.585813 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Dropdown Icon.psd
+  artifactKey: Guid(a7ec9e7ad8b847b7ae4510af83c5d868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Dropdown Icon.psd using Guid(a7ec9e7ad8b847b7ae4510af83c5d868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e2255fe912a7224de600b775ea4f68') in 0.100396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd
+  artifactKey: Guid(2fd6421f253b4ef1a19526541f9ffc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd using Guid(2fd6421f253b4ef1a19526541f9ffc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316660632eeb75a7a777104b74df4888') in 0.098056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Input Field Icon.psd
+  artifactKey: Guid(3ee40aa79cd242a5b53b0b0ca4f13f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Input Field Icon.psd using Guid(3ee40aa79cd242a5b53b0b0ca4f13f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025dbf374e0b8eababcf49d9fa1c80dc') in 0.067316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002142 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Sprite Asset Icon.psd
+  artifactKey: Guid(ec7c645d93308c04d8840982af12101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Sprite Asset Icon.psd using Guid(ec7c645d93308c04d8840982af12101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28397ff1427123483a560d2e8eb1d89') in 0.115582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
+  artifactKey: Guid(ee148e281f3c41c5b4ff5f8a5afe5a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd using Guid(ee148e281f3c41c5b4ff5f8a5afe5a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd80e8fc90f3013a5a20910837a5051') in 0.100412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.378778 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSZI SDF.asset
+  artifactKey: Guid(c242835cc3d25494183c125c3895f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSZI SDF.asset using Guid(c242835cc3d25494183c125c3895f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'aff3f33ab3561951c10e563b0e0a8576') in 0.102490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_R SDF.asset
+  artifactKey: Guid(3f69fb062ebb1bb4fa18abaad0a635ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_R SDF.asset using Guid(3f69fb062ebb1bb4fa18abaad0a635ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'dc5db4ec62792585462ff97666441fa0') in 0.114074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001000 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RI SDF.asset
+  artifactKey: Guid(0e61e13f99da9e2469e4ce8d401ef6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RI SDF.asset using Guid(0e61e13f99da9e2469e4ce8d401ef6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '76be7f9bbc2d220ace7647fe3c866b77') in 0.106951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_DR SDF.asset
+  artifactKey: Guid(8dd73859e7bf07146b866a4f1f8640cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_DR SDF.asset using Guid(8dd73859e7bf07146b866a4f1f8640cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '6f0c372d398536b0f053827c6c7ab0b5') in 0.126591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000665 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RZ SDF.asset
+  artifactKey: Guid(d365bb98833b9f14ca5d0ad929128401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RZ SDF.asset using Guid(d365bb98833b9f14ca5d0ad929128401) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'c8334951ae6b82a418d9377b278ba67c') in 0.117580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RZI SDF.asset
+  artifactKey: Guid(0f972585bf3f8874db28082c2a4154d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RZI SDF.asset using Guid(0f972585bf3f8874db28082c2a4154d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '7da18c09a215361fac46a74802f48d92') in 0.134256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_I SDF.asset
+  artifactKey: Guid(d84e1a94a6b050e46aa058c53b9670dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_I SDF.asset using Guid(d84e1a94a6b050e46aa058c53b9670dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '5538d667c83605315889bfdaf60c03b7') in 0.126013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RBI SDF.asset
+  artifactKey: Guid(72f269e2fc147e04eacae140e01ec925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RBI SDF.asset using Guid(72f269e2fc147e04eacae140e01ec925) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '745997118fbc77e5adcb25197278853a') in 0.120099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aZL SDF.asset
+  artifactKey: Guid(be6127d7d7cd4794ab1a817f05fb3e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aZL SDF.asset using Guid(be6127d7d7cd4794ab1a817f05fb3e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '2ebf7a8f350464c4a82648966b82f2db') in 0.186882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005975 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RB SDF.asset
+  artifactKey: Guid(b3fcd8cf0dfaf834faff7dd5db727480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RB SDF.asset using Guid(b3fcd8cf0dfaf834faff7dd5db727480) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '9d4bff90c2b61b20851e4a0050ad2e33') in 0.209154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.629399 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aBL SDF.asset
+  artifactKey: Guid(d88e0889376cff54b869198b3410978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aBL SDF.asset using Guid(d88e0889376cff54b869198b3410978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '13302a7f333fdcbf7dd5a0c8d83325da') in 0.115099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSZI SDF.asset
+  artifactKey: Guid(2fa0332871ff4f048ab605397980a622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSZI SDF.asset using Guid(2fa0332871ff4f048ab605397980a622) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '3bda11044ec7c49761441df1102f911c') in 0.174564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.144449 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RBI SDF.asset
+  artifactKey: Guid(f83b6ee9ef72d5d40a8fb091cd91a69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RBI SDF.asset using Guid(f83b6ee9ef72d5d40a8fb091cd91a69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'bd5a5c0ca5bd9351f0ad061514a39f41') in 0.125981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001447 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSI SDF.asset
+  artifactKey: Guid(f807f9a15819b08419512822f2876e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aSI SDF.asset using Guid(f807f9a15819b08419512822f2876e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '244859e6a6fd3e848743043d944385fb') in 0.188760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RB SDF.asset
+  artifactKey: Guid(d9138ae6fbc9c8d4abd8cb07109d7c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RB SDF.asset using Guid(d9138ae6fbc9c8d4abd8cb07109d7c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '3048f785baa173e14211ad35a157d5bf') in 0.118855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052552 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RZ SDF.asset
+  artifactKey: Guid(4ed3e3df58be2204faf494d4626c2283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RZ SDF.asset using Guid(4ed3e3df58be2204faf494d4626c2283) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'eaf988350c3719c0409f12d2b5c81f56') in 0.115133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001950 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aRL SDF.asset
+  artifactKey: Guid(d9709a2381c96f74e90df0f0f9d3f6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aRL SDF.asset using Guid(d9709a2381c96f74e90df0f0f9d3f6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '4a5d984689bf0e4a65756e85b08e5720') in 0.175775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aZL SDF.asset
+  artifactKey: Guid(8f3c441ce0170dd4291f7e4320e2e253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aZL SDF.asset using Guid(8f3c441ce0170dd4291f7e4320e2e253) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'dffe3d255db58eea0a13ec0ec718e857') in 0.515088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051562 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_I SDF.asset
+  artifactKey: Guid(2dd2fdf419571e644b05362f7ff8cc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_I SDF.asset using Guid(2dd2fdf419571e644b05362f7ff8cc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '37c5aab82dac632dc0a35b925aa43e70') in 0.166373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.265984 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RI SDF.asset
+  artifactKey: Guid(ac6e9627fd5b21f4cb45ef451fd067bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RI SDF.asset using Guid(ac6e9627fd5b21f4cb45ef451fd067bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'fe854a22c70a1f8f0aa9e86e3758c970') in 0.117159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078724 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aBS SDF.asset
+  artifactKey: Guid(b8d7e176c56e3be42991119b90f03c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aBS SDF.asset using Guid(b8d7e176c56e3be42991119b90f03c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'c20fffc46c816ebb94206d39d0a81130') in 0.128979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.223349 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aS SDF.asset
+  artifactKey: Guid(7f0dd49b65f9f7643af022be71aff3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aS SDF.asset using Guid(7f0dd49b65f9f7643af022be71aff3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '14839baaefa29ecf0c629951456a22d9') in 0.219850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000882 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aDRS SDF.asset
+  artifactKey: Guid(945215ea8ffcd3446b4de2935e6ed44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_aDRS SDF.asset using Guid(945215ea8ffcd3446b4de2935e6ed44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '15fd733768b415998bca62be7ea0d77e') in 0.135858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.137411 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RZI SDF.asset
+  artifactKey: Guid(9444ef4eba03fb44aa7a50c391a49d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_RZI SDF.asset using Guid(9444ef4eba03fb44aa7a50c391a49d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '18cef9e45846828652255a99fb669646') in 0.108031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029134 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_DR SDF.asset
+  artifactKey: Guid(e2209a5176f44a147a6d9b9f0b506873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_DR SDF.asset using Guid(e2209a5176f44a147a6d9b9f0b506873) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'e187a2d7a59fbd03ce1b39baade516b9') in 0.103561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/LinLibertine_R SDF.asset
+  artifactKey: Guid(7d15c12f2b23a1b4688659285ee7b24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/LinLibertine_R SDF.asset using Guid(7d15c12f2b23a1b4688659285ee7b24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '920de1261cf2b8542205e6993abca306') in 0.133251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 201.527234 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_R SDF.asset
+  artifactKey: Guid(7d15c12f2b23a1b4688659285ee7b24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_R SDF.asset using Guid(7d15c12f2b23a1b4688659285ee7b24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '769f4e4f8231e4dea9e8d415b205a974') in 0.188741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 269.616496 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf
+  artifactKey: Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf using Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75348730c89fa56aa23f10dd1924a3bb') in 0.409603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012304 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdddd331c3f1b7826858a8d92db67e39') in 0.305483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001119 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf
+  artifactKey: Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf using Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb26cd20cfe8ba27a65eb0ccba3affd8') in 0.204668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009748 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf
+  artifactKey: Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf using Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa5b4f089bf70adfb215145918b971c') in 0.160395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024557 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf
+  artifactKey: Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf using Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306af4a6553c7987fe2e6b4f8bcf8a46') in 0.287253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012853 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/Perfect DOS VGA 437.ttf
+  artifactKey: Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/Perfect DOS VGA 437.ttf using Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47252ba058fbb5d0f75af9af69e64ce') in 0.212854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002296 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf
+  artifactKey: Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf using Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec17ac49e686b6403fba7db43313bc11') in 0.165015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf
+  artifactKey: Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf using Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a531e62da555d3bd7a437e2a69f156') in 0.292345 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005690 seconds.
+Registered in 0.010268 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.029 seconds
+- Completed reload, in  6.854 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4030ms)
-		BeginReloadAssembly (345ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (95ms)
-		EndReloadAssembly (3514ms)
-			LoadAssemblies (324ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (619ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (522ms)
-			SetupLoadedEditorAssemblies (1135ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (280ms)
-				ProcessInitializeOnLoadAttributes (751ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
-				AfterProcessingInitializeOnLoad (21ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2207 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.3 MB.
-System memory in use after: 97.3 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2646.
-Total: 6.838769 ms (FindLiveObjects: 0.482774 ms CreateObjectMapping: 0.135093 ms MarkObjects: 5.957349 ms  DeleteObjects: 0.261110 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 137.736126 seconds.
-  path: Assets/OctO Logo Light.png
-  artifactKey: Guid(75f2d19f90739c84f9873edb7c45db4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OctO Logo Light.png using Guid(75f2d19f90739c84f9873edb7c45db4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc98c4892e7eb05eaf0664039bbb250') in 1.491128 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.361944 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone.png
-  artifactKey: Guid(62ce01ddca719d34ea9648c586a7cc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone.png using Guid(62ce01ddca719d34ea9648c586a7cc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb23684d1ec62a50c053c64e07b646f') in 0.156351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009071 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@2x.png
-  artifactKey: Guid(7395bf0bc3cc40e4ab2dda5ec6832261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@2x.png using Guid(7395bf0bc3cc40e4ab2dda5ec6832261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce74f946096cd0c4f4a7f2b8e69c6e66') in 0.287142 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000909 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@4x.png
-  artifactKey: Guid(daf2ab606d4db0d4f9ecf4c02137d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@4x.png using Guid(daf2ab606d4db0d4f9ecf4c02137d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269c286c15f89522a9c6aa245ea4de7d') in 0.189905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001151 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@3x.png
-  artifactKey: Guid(76beef9fdae7b48468ddf07d0400a374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@3x.png using Guid(76beef9fdae7b48468ddf07d0400a374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07d68126c6e632f5a4acceb6b935c68') in 0.337870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.030420 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@2x.png
-  artifactKey: Guid(0779ad3feec52124e97114bcbb12ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@2x.png using Guid(0779ad3feec52124e97114bcbb12ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fb578c07296edd47003f614ba57490') in 0.152520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006696 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@2x.png
-  artifactKey: Guid(5d52b20f865aff242bfcb08c3b6f61a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@2x.png using Guid(5d52b20f865aff242bfcb08c3b6f61a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc17a0a827e88d93db0dbe8e86bf98ad') in 0.174432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000672 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence.png
-  artifactKey: Guid(ff00345da0563d641903c5bd5bb748a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence.png using Guid(ff00345da0563d641903c5bd5bb748a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e045a106f2b3682dee2d26429113156c') in 0.212150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.007033 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode@2x.png
-  artifactKey: Guid(25096ce515c063c48a2bd6b108c95912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode@2x.png using Guid(25096ce515c063c48a2bd6b108c95912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c18aaefa5a5908cc47c724afc509aff') in 0.377247 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002035 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png
-  artifactKey: Guid(f9161c6c9e06dc445ada3ee16d991f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png using Guid(f9161c6c9e06dc445ada3ee16d991f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f41554b91e84c181188a6883574e36') in 0.149575 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.042276 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@3x.png
-  artifactKey: Guid(68e5a78013e33f247822a837e55b0ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@3x.png using Guid(68e5a78013e33f247822a837e55b0ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512edadc302ee80891be8763373db4a5') in 0.116444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009350 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_stevejobsbuhochristmas.png
-  artifactKey: Guid(08c91a7677e66844281a99aaf6ea36f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_stevejobsbuhochristmas.png using Guid(08c91a7677e66844281a99aaf6ea36f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82aa8d985c5cda6787f9a8eefed53f7e') in 0.120407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedlocaloverlay.png
-  artifactKey: Guid(4da274d970a82a943ae3979e7833f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedlocaloverlay.png using Guid(4da274d970a82a943ae3979e7833f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198f098f95921daa2bc52cefee42554f') in 0.157018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000590 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedlocaloverlay.png
-  artifactKey: Guid(71c45f80bffdb9145ad2c456254c862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedlocaloverlay.png using Guid(71c45f80bffdb9145ad2c456254c862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5929fafcb5b4d013f2a9270b21404e') in 0.383028 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002074 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconaddedlocal@2x.png
-  artifactKey: Guid(a67b58d6cddcd4345b1e001340de5a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconaddedlocal@2x.png using Guid(a67b58d6cddcd4345b1e001340de5a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff8e83f6d79c5f56e0ff34a3b6da46b') in 0.172232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001040 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedlocaloverlay@2x.png
-  artifactKey: Guid(92b204cca46037444ab18ba6701f86f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedlocaloverlay@2x.png using Guid(92b204cca46037444ab18ba6701f86f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5aa4b605f1f7be32fc87b8b54bc6d9c') in 0.336155 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000991 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas2.png
-  artifactKey: Guid(5955491dc8dcecb4a993d9a008cf65a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas2.png using Guid(5955491dc8dcecb4a993d9a008cf65a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca465191f8a3d75eb8184ad19b3a102') in 0.247793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.024271 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas1.png
-  artifactKey: Guid(e36d1a38d7aa309409e80bf66a089330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas1.png using Guid(e36d1a38d7aa309409e80bf66a089330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4df8a696178bb7782c254d36d339e6a') in 0.257485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.011442 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_expertbuhochristmas.png
-  artifactKey: Guid(c887ed2a931c29040bc544cd8c546e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_expertbuhochristmas.png using Guid(c887ed2a931c29040bc544cd8c546e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420298be39c4497f5106bae8a8504d2a') in 0.176379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedlocaloverlay@2x.png
-  artifactKey: Guid(ae53a7884da90e94eb5dfeab594b746c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedlocaloverlay@2x.png using Guid(ae53a7884da90e94eb5dfeab594b746c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d67d5a2df8123591629e58354ee070') in 0.204682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000488 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconcheckedoutlocaloverlay.png
-  artifactKey: Guid(4bd47f86a00dd2b4b8ab20a11de165f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconcheckedoutlocaloverlay.png using Guid(4bd47f86a00dd2b4b8ab20a11de165f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce51d2d6b3385f197b41d6abcd1ee19') in 0.181172 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000505 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhochristmas.png
-  artifactKey: Guid(fd098fb4cf57bad419701c802e442b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhochristmas.png using Guid(fd098fb4cf57bad419701c802e442b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb685843c0b9b6a0d2c5771cfdccebaa') in 0.197331 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000582 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedremoteoverlay.png
-  artifactKey: Guid(1046ed65e6aaffb4391378f6d08d6c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedremoteoverlay.png using Guid(1046ed65e6aaffb4391378f6d08d6c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345da3cf52083ef5d60647490f9225f4') in 0.360968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000582 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@3x.png
-  artifactKey: Guid(cee9dbe90b270c944ae1dabf41c93b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@3x.png using Guid(cee9dbe90b270c944ae1dabf41c93b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b942cb9a212b55c813d053008ec2a5') in 0.100671 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.283550 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.027624 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.486938 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(0c159f78079476941ba60aee2b46aa9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(0c159f78079476941ba60aee2b46aa9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deec7c5f772c86186196729bb2d564d3') in 0.016306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 69.386180 seconds.
-  path: Assets/Scripts/Identifier.cs
-  artifactKey: Guid(2b04b96b78af9a0439bbcd45da5d12a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Identifier.cs using Guid(2b04b96b78af9a0439bbcd45da5d12a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebdd1521f70e00140af0f5e0cf2ee68') in 0.129647 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007245 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.868 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3869ms)
-		BeginReloadAssembly (257ms)
+	ReloadAssembly (6855ms)
+		BeginReloadAssembly (1756ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (14ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (3446ms)
-			LoadAssemblies (315ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (4866ms)
+			LoadAssemblies (1728ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (813ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (111ms)
-			SetupLoadedEditorAssemblies (2002ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (208ms)
-				ProcessInitializeOnLoadAttributes (1743ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (63ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2208 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.4 MB.
-System memory in use after: 100.4 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2670.
-Total: 25.285746 ms (FindLiveObjects: 0.508954 ms CreateObjectMapping: 0.134395 ms MarkObjects: 24.288782 ms  DeleteObjects: 0.350124 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007221 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  8.853 seconds
-Domain Reload Profiling:
-	ReloadAssembly (8854ms)
-		BeginReloadAssembly (271ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (8374ms)
-			LoadAssemblies (5508ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1288ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (307ms)
-			SetupLoadedEditorAssemblies (975ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (8ms)
-				BeforeProcessingInitializeOnLoad (290ms)
-				ProcessInitializeOnLoadAttributes (617ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2208 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.5 MB.
-System memory in use after: 100.4 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2673.
-Total: 6.180758 ms (FindLiveObjects: 0.407722 ms CreateObjectMapping: 0.111007 ms MarkObjects: 5.412091 ms  DeleteObjects: 0.247845 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.715937 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.223 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2224ms)
-		BeginReloadAssembly (226ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (1828ms)
-			LoadAssemblies (268ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (669ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (108ms)
-			SetupLoadedEditorAssemblies (578ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (179ms)
-				ProcessInitializeOnLoadAttributes (359ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.97 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2208 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.5 MB.
-System memory in use after: 100.5 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2676.
-Total: 12.880594 ms (FindLiveObjects: 1.087724 ms CreateObjectMapping: 3.973893 ms MarkObjects: 7.431152 ms  DeleteObjects: 0.384334 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005284 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.142 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2142ms)
-		BeginReloadAssembly (312ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (104ms)
-		EndReloadAssembly (1716ms)
-			LoadAssemblies (252ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (653ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (100ms)
-			SetupLoadedEditorAssemblies (572ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (172ms)
-				ProcessInitializeOnLoadAttributes (361ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2208 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.5 MB.
-System memory in use after: 100.5 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2679.
-Total: 8.947892 ms (FindLiveObjects: 0.484868 ms CreateObjectMapping: 0.154292 ms MarkObjects: 8.021093 ms  DeleteObjects: 0.285894 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006721 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 123.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.266 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2267ms)
-		BeginReloadAssembly (202ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (63ms)
-		EndReloadAssembly (1952ms)
-			LoadAssemblies (198ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (711ms)
+			SetupTypeCache (2170ms)
 			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (111ms)
-			SetupLoadedEditorAssemblies (631ms)
+			RebuildScriptCaches (783ms)
+			SetupLoadedEditorAssemblies (821ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (124ms)
-				BeforeProcessingInitializeOnLoad (137ms)
-				ProcessInitializeOnLoadAttributes (333ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (314ms)
+				ProcessInitializeOnLoadAttributes (461ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3274 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.5 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3805.
+Total: 14.485302 ms (FindLiveObjects: 1.053515 ms CreateObjectMapping: 0.382588 ms MarkObjects: 12.009647 ms  DeleteObjects: 1.036410 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006863 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.262 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2264ms)
+		BeginReloadAssembly (262ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (1881ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (687ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (698ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (224ms)
+				ProcessInitializeOnLoadAttributes (429ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123.1 MB.
-System memory in use after: 123.0 MB.
+Unloading 3271 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.4 MB.
+System memory in use after: 140.9 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3475.
-Total: 7.928936 ms (FindLiveObjects: 0.986492 ms CreateObjectMapping: 0.205606 ms MarkObjects: 6.314455 ms  DeleteObjects: 0.420289 ms)
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3808.
+Total: 8.809658 ms (FindLiveObjects: 0.641604 ms CreateObjectMapping: 0.190596 ms MarkObjects: 7.160269 ms  DeleteObjects: 0.815095 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -645,89 +927,188 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2628.072395 seconds.
-  path: Assets/Graphics
-  artifactKey: Guid(064c880a4ace2c244aa5422b280544dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics using Guid(064c880a4ace2c244aa5422b280544dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e36f34f7b33d0b6b9cdb03adf9a8034') in 0.034460 seconds 
+  Time since last request: 449.523521 seconds.
+  path: Assets/CalcEngine
+  artifactKey: Guid(07f6cf6319a1fed4a8935b4ca1bba654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CalcEngine using Guid(07f6cf6319a1fed4a8935b4ca1bba654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fb8efabe04d024eb9f3d361a69321d') in 0.035364 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.223730 seconds.
-  path: Assets/Graphics/Materials
-  artifactKey: Guid(a5b7415303e500e4ea7c8fc8b4de4d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Materials using Guid(a5b7415303e500e4ea7c8fc8b4de4d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b12c8ec21b0d3e27b0fea3bde5b53a7') in 0.036873 seconds 
+  Time since last request: 1.129715 seconds.
+  path: Assets/CalcEngine/CalcEngine.cs
+  artifactKey: Guid(a0178504ad2ad9f4493c87fbf24323c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CalcEngine/CalcEngine.cs using Guid(a0178504ad2ad9f4493c87fbf24323c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a402c564d9375067a4198a5e63a6e00a') in 0.155074 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.882328 seconds.
-  path: Assets/Graphics/Shaders
-  artifactKey: Guid(6f405dc878e5db4479854cb4211bf06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Shaders using Guid(6f405dc878e5db4479854cb4211bf06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5bf2712e7264b9fe0dda5bec69bf4f') in 0.042998 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.607141 seconds.
-  path: Assets/Graphics/Shaders/BackGroundTiles.shadergraph
-  artifactKey: Guid(ccea81ad6d8eb61469762b86965b6b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Shaders/BackGroundTiles.shadergraph using Guid(ccea81ad6d8eb61469762b86965b6b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856dabd4c6ed0194c6ebd74293d81356') in 0.053795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.715523 seconds.
-  path: Assets/Graphics/Shaders/BackGroundTiles.mat
-  artifactKey: Guid(1d089ae2f2dfc224b92895109797dc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Shaders/BackGroundTiles.mat using Guid(1d089ae2f2dfc224b92895109797dc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec87e32052aaf111a9d0d784b02bb590') in 0.240294 seconds 
+  Time since last request: 24.141617 seconds.
+  path: Assets/Scripts/DarkMode.cs
+  artifactKey: Guid(7da7f0d4774fc584e93ab99d200e4a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DarkMode.cs using Guid(7da7f0d4774fc584e93ab99d200e4a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad88ac1176070e3e78789928cf4de5f9') in 0.024239 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006349 seconds.
+Registered in 0.051017 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.049 seconds
+- Completed reload, in  3.156 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3051ms)
-		BeginReloadAssembly (291ms)
+	ReloadAssembly (3157ms)
+		BeginReloadAssembly (219ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (2724ms)
+			LoadAssemblies (258ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1028ms)
+			ReleaseScriptCaches (20ms)
+			RebuildScriptCaches (204ms)
+			SetupLoadedEditorAssemblies (813ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (346ms)
+				ProcessInitializeOnLoadAttributes (421ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.4 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3812.
+Total: 7.868197 ms (FindLiveObjects: 0.683842 ms CreateObjectMapping: 0.200370 ms MarkObjects: 6.169588 ms  DeleteObjects: 0.812651 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006887 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.098 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3099ms)
+		BeginReloadAssembly (219ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (102ms)
-		EndReloadAssembly (2614ms)
-			LoadAssemblies (320ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (2758ms)
+			LoadAssemblies (217ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (914ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (155ms)
-			SetupLoadedEditorAssemblies (969ms)
+			SetupTypeCache (700ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (720ms)
+			SetupLoadedEditorAssemblies (836ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (247ms)
+				ProcessInitializeOnLoadAttributes (510ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (49ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.4 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3815.
+Total: 8.460232 ms (FindLiveObjects: 0.629386 ms CreateObjectMapping: 0.339652 ms MarkObjects: 6.375194 ms  DeleteObjects: 1.113556 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 291.014497 seconds.
+  path: Assets/Scripts/DarkMode.cs
+  artifactKey: Guid(7da7f0d4774fc584e93ab99d200e4a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DarkMode.cs using Guid(7da7f0d4774fc584e93ab99d200e4a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add40f6705231b7a78f164b5ba0ca052') in 0.020368 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011278 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.627 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2628ms)
+		BeginReloadAssembly (221ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (2273ms)
+			LoadAssemblies (227ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (761ms)
+			ReleaseScriptCaches (32ms)
+			RebuildScriptCaches (166ms)
+			SetupLoadedEditorAssemblies (858ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (337ms)
-				ProcessInitializeOnLoadAttributes (573ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (299ms)
+				ProcessInitializeOnLoadAttributes (507ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
-Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
-Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
-Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
-Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
-Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 4.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3306 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.5 MB.
-System memory in use after: 138.4 MB.
+Unloading 3273 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.5 MB.
+System memory in use after: 141.0 MB.
 
-Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 3764.
-Total: 21.268567 ms (FindLiveObjects: 0.950537 ms CreateObjectMapping: 0.476839 ms MarkObjects: 9.628942 ms  DeleteObjects: 10.208759 ms)
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3819.
+Total: 14.313556 ms (FindLiveObjects: 1.039901 ms CreateObjectMapping: 0.269837 ms MarkObjects: 12.164986 ms  DeleteObjects: 0.836389 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -741,110 +1122,521 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 322.108192 seconds.
-  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf
-  artifactKey: Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf using Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe535c3097f062ec3e1baa911215801') in 0.267748 seconds 
+  Time since last request: 105.246011 seconds.
+  path: Assets/Scripts/DarkMode.cs
+  artifactKey: Guid(7da7f0d4774fc584e93ab99d200e4a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DarkMode.cs using Guid(7da7f0d4774fc584e93ab99d200e4a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a324793abf5787a7588f0b8ffc25a053') in 0.026290 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009011 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.487 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2489ms)
+		BeginReloadAssembly (308ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (2047ms)
+			LoadAssemblies (275ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (733ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (769ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (248ms)
+				ProcessInitializeOnLoadAttributes (463ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3273 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.5 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3822.
+Total: 9.336415 ms (FindLiveObjects: 0.797990 ms CreateObjectMapping: 0.291479 ms MarkObjects: 7.315259 ms  DeleteObjects: 0.928894 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008561 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.213 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4214ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (3877ms)
+			LoadAssemblies (218ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2659ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (160ms)
+			SetupLoadedEditorAssemblies (628ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (220ms)
+				ProcessInitializeOnLoadAttributes (365ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3273 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.5 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3825.
+Total: 25.898376 ms (FindLiveObjects: 0.964500 ms CreateObjectMapping: 1.308341 ms MarkObjects: 22.791590 ms  DeleteObjects: 0.830803 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001070 seconds.
-  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf
-  artifactKey: Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf using Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81bf1bfb61ac7f4d6a7e4eb4798b4b65') in 0.089998 seconds 
+  Time since last request: 5581.606242 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1280cc7be10b532b2897fc8654f95d3') in 0.388905 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006674 seconds.
-  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf
-  artifactKey: Guid(19a9abb883540be48b75b951a927ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf using Guid(19a9abb883540be48b75b951a927ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5067fcee22434ca506a2370b4fff4d') in 0.104602 seconds 
+  Time since last request: 0.000326 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c2210586957436df79bf961aeff06e') in 0.147260 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008206 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.173 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2174ms)
+		BeginReloadAssembly (219ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1840ms)
+			LoadAssemblies (195ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (741ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (598ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (211ms)
+				ProcessInitializeOnLoadAttributes (346ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3273 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.5 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3830.
+Total: 9.952187 ms (FindLiveObjects: 0.734458 ms CreateObjectMapping: 0.255524 ms MarkObjects: 8.021791 ms  DeleteObjects: 0.937272 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007934 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.969 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2970ms)
+		BeginReloadAssembly (342ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (95ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (2509ms)
+			LoadAssemblies (203ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1111ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (256ms)
+			SetupLoadedEditorAssemblies (729ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (246ms)
+				ProcessInitializeOnLoadAttributes (440ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3273 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.5 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3833.
+Total: 8.222859 ms (FindLiveObjects: 0.639160 ms CreateObjectMapping: 0.188851 ms MarkObjects: 6.499815 ms  DeleteObjects: 0.893288 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 942.099045 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4261727677f7180dbdee811792d756d') in 0.328574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_aSZI SDF.asset
+  artifactKey: Guid(2fa0332871ff4f048ab605397980a622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_aSZI SDF.asset using Guid(2fa0332871ff4f048ab605397980a622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d512e30fc5dab7ab6de475f033ebe38') in 0.151828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_RBI SDF.asset
+  artifactKey: Guid(f83b6ee9ef72d5d40a8fb091cd91a69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_RBI SDF.asset using Guid(f83b6ee9ef72d5d40a8fb091cd91a69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7f72a960b31169fccef443deb6ff26') in 0.156189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005671 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_aSI SDF.asset
+  artifactKey: Guid(f807f9a15819b08419512822f2876e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_aSI SDF.asset using Guid(f807f9a15819b08419512822f2876e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0974361be48dc9a78399c0845f58d5c6') in 0.155154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019505 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_RB SDF.asset
+  artifactKey: Guid(d9138ae6fbc9c8d4abd8cb07109d7c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_RB SDF.asset using Guid(d9138ae6fbc9c8d4abd8cb07109d7c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2663241686035b92ad8243c598d426') in 0.148146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_aBL SDF.asset
+  artifactKey: Guid(d88e0889376cff54b869198b3410978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_aBL SDF.asset using Guid(d88e0889376cff54b869198b3410978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0858d4580b9af164cace3307f7b9f97') in 0.160817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001724 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_RZ SDF.asset
+  artifactKey: Guid(4ed3e3df58be2204faf494d4626c2283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_RZ SDF.asset using Guid(4ed3e3df58be2204faf494d4626c2283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4baa5b3ad93de398803bc4a66231f2bd') in 0.203979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040586 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_aRL SDF.asset
+  artifactKey: Guid(d9709a2381c96f74e90df0f0f9d3f6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_aRL SDF.asset using Guid(d9709a2381c96f74e90df0f0f9d3f6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a49f451f1afafaf166e8a4f119661c8') in 0.257131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_aZL SDF.asset
+  artifactKey: Guid(8f3c441ce0170dd4291f7e4320e2e253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_aZL SDF.asset using Guid(8f3c441ce0170dd4291f7e4320e2e253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a345153f88af059683c095fb82bc74') in 0.176388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_I SDF.asset
+  artifactKey: Guid(2dd2fdf419571e644b05362f7ff8cc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_I SDF.asset using Guid(2dd2fdf419571e644b05362f7ff8cc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06be60cc5d64cf313a47dbee3261fd6f') in 0.198397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001095 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_RI SDF.asset
+  artifactKey: Guid(ac6e9627fd5b21f4cb45ef451fd067bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_RI SDF.asset using Guid(ac6e9627fd5b21f4cb45ef451fd067bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49afa99dbc57036e473152b7f4e992dd') in 0.233415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_aBS SDF.asset
+  artifactKey: Guid(b8d7e176c56e3be42991119b90f03c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_aBS SDF.asset using Guid(b8d7e176c56e3be42991119b90f03c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a7b19a043a53edd6d03ebb222f32b6') in 0.284982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000775 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_aS SDF.asset
+  artifactKey: Guid(7f0dd49b65f9f7643af022be71aff3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_aS SDF.asset using Guid(7f0dd49b65f9f7643af022be71aff3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f99772dc4e3458e06af27df2fa871c') in 0.188957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000778 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_aDRS SDF.asset
+  artifactKey: Guid(945215ea8ffcd3446b4de2935e6ed44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_aDRS SDF.asset using Guid(945215ea8ffcd3446b4de2935e6ed44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4fdf1bf605b4a23b6dd46bdf2cb8cf') in 0.150489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014816 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_DR SDF.asset
+  artifactKey: Guid(e2209a5176f44a147a6d9b9f0b506873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_DR SDF.asset using Guid(e2209a5176f44a147a6d9b9f0b506873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9fcb830b5a33eb72dc8a0d7d2ab2b5') in 0.186548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000789 seconds.
+  path: Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_R SDF.asset
+  artifactKey: Guid(7d15c12f2b23a1b4688659285ee7b24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Fonts/Linux Libertine/TMPro/LinLibertine_R SDF.asset using Guid(7d15c12f2b23a1b4688659285ee7b24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc059db8a57cc9a7cca16dcb2ceabc4') in 0.197741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 165.234884 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Weight_Slider@2x.png
+  artifactKey: Guid(6306a4776b130304bba7a139fc1d2bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Weight_Slider@2x.png using Guid(6306a4776b130304bba7a139fc1d2bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32de2202698424b2984f8f89b84213a') in 0.258943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008236 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Weight_Slider@4x.png
+  artifactKey: Guid(4e494ad3b858ecf4fab63aae9075d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Weight_Slider@4x.png using Guid(4e494ad3b858ecf4fab63aae9075d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c5fc386e7cc6183179577a12a5b123') in 0.216905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006146 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Weight_Slider@4x.png
+  artifactKey: Guid(ac47ed8ccc79cf04dae198b9cc5b3a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Weight_Slider@4x.png using Guid(ac47ed8ccc79cf04dae198b9cc5b3a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c4cd6ff0598c93c90808d04b4e1380') in 0.136362 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000343 seconds.
-  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf
-  artifactKey: Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf using Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b547faaff5fd294001bed41ef76adab2') in 0.093361 seconds 
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Weight_Slider@3x.png
+  artifactKey: Guid(af73899d5803d99448134360f184f348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Weight_Slider@3x.png using Guid(af73899d5803d99448134360f184f348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8757b287cac46fe15ba5195c9e6129a5') in 0.193353 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000608 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
-  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad40f01e9d41488d762fd6d85c343c1') in 0.088007 seconds 
+  Time since last request: 0.002976 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Weight_Slider@3x.png
+  artifactKey: Guid(ec8214d7d416a8746bb342b71e8e4269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Weight_Slider@3x.png using Guid(ec8214d7d416a8746bb342b71e8e4269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392ef20030e45286a5687a10db954c98') in 0.138675 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.019448 seconds.
-  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf
-  artifactKey: Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf using Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f62d5059210cc27112de43185eac9d8') in 0.117204 seconds 
+  Time since last request: 0.002913 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/LayoutVertical@2x.png
+  artifactKey: Guid(6b8067336fda8f040bb1f6d336ac08c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/LayoutVertical@2x.png using Guid(6b8067336fda8f040bb1f6d336ac08c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851982d755a04d34e9192a9b037f9af4') in 0.275829 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002991 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat
-  artifactKey: Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat using Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5ee9367b7bafb6b44f740b797558b7') in 0.099121 seconds 
+  Time since last request: 0.005127 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/White1px.png
+  artifactKey: Guid(127279d577f25ac4ea17dae3782e5074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/White1px.png using Guid(127279d577f25ac4ea17dae3782e5074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0253fd35fecb4d58d57a913ca0cef950') in 0.200116 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf
-  artifactKey: Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf using Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387d068e77a0bbb9c4b3cda6b0579d83') in 0.074239 seconds 
+  Time since last request: 0.002110 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/Layout2@2x.png
+  artifactKey: Guid(356caeb1305bf794e94ecd5161f8e6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/Layout2@2x.png using Guid(356caeb1305bf794e94ecd5161f8e6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67aa379746ce8cd157a08a3241e2c9ac') in 0.217602 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000509 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat
-  artifactKey: Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat using Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150132e0efa3e9f49db7782dbc2ef5e1') in 1.805818 seconds 
+  Time since last request: 0.002734 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay@2x.png
+  artifactKey: Guid(a6fbd5a181bc51e42a61a73fe8d727c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay@2x.png using Guid(a6fbd5a181bc51e42a61a73fe8d727c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69aa418b2869b1203b79fd763448bd0c') in 0.239374 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.976506 seconds.
-  path: Assets/Graphics/Shaders/BackGroundTiles.shadergraph
-  artifactKey: Guid(ccea81ad6d8eb61469762b86965b6b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Shaders/BackGroundTiles.shadergraph using Guid(ccea81ad6d8eb61469762b86965b6b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336a7e3ee8648e29257993ebe74f2a29') in 0.013450 seconds 
+  Time since last request: 0.002288 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/loading.png
+  artifactKey: Guid(c6b1bcaa3f4767141acd747384dbb276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/loading.png using Guid(c6b1bcaa3f4767141acd747384dbb276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a4cad4d449c1634fdcc2c548054810') in 0.152204 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.992819 seconds.
-  path: Assets/Graphics/Shaders/BackgrounTiles.shadergraph
-  artifactKey: Guid(e9a783043f28ff547823ebe1fd5d8abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Shaders/BackgrounTiles.shadergraph using Guid(e9a783043f28ff547823ebe1fd5d8abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3767b557e2058115fa371a247c60b2') in 0.115341 seconds 
+  Time since last request: 0.034458 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedremoteoverlay.png
+  artifactKey: Guid(3de8a0634e55df8499c88204001cb0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedremoteoverlay.png using Guid(3de8a0634e55df8499c88204001cb0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a1f47d29655e7252d0c1247667021b') in 0.147197 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.636745 seconds.
-  path: Assets/Graphics/Shaders/BackgroundTiles.shadergraph
-  artifactKey: Guid(e9a783043f28ff547823ebe1fd5d8abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Shaders/BackgroundTiles.shadergraph using Guid(e9a783043f28ff547823ebe1fd5d8abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d339317e879679e5f1834837aebeba2') in 0.018931 seconds 
+  Time since last request: 0.005134 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconemptygravatar@2x.png
+  artifactKey: Guid(0ac55f9f886d827408c102bdf33c5ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconemptygravatar@2x.png using Guid(0ac55f9f886d827408c102bdf33c5ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917f75564e10e7d03e6d680e225cc633') in 0.185651 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.273034 seconds.
-  path: Assets/Graphics/Shaders/BackGroundTiles.shadergraph
-  artifactKey: Guid(e9a783043f28ff547823ebe1fd5d8abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Shaders/BackGroundTiles.shadergraph using Guid(e9a783043f28ff547823ebe1fd5d8abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39324b7cb525b0d51cabfc18a8aec5c0') in 0.020494 seconds 
+  Time since last request: 0.002555 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/LayoutVertical.png
+  artifactKey: Guid(6a9d49ac254f03c48bf5b6590f4d2a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/LayoutVertical.png using Guid(6a9d49ac254f03c48bf5b6590f4d2a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9339017fa78491c69c4e20e8d47ca45c') in 0.168538 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.157568 seconds.
-  path: Assets/Graphics/Materials/BackGroundTiles.mat
-  artifactKey: Guid(1d089ae2f2dfc224b92895109797dc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Materials/BackGroundTiles.mat using Guid(1d089ae2f2dfc224b92895109797dc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c826b8522479239988945b7b54ada2') in 0.105311 seconds 
+  Time since last request: 0.010123 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/LayoutCustom@2x.png
+  artifactKey: Guid(2fffe801f98fb314484382ea4affcf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/LayoutCustom@2x.png using Guid(2fffe801f98fb314484382ea4affcf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aaa2a58f58eebc5b9cffc5adbb3206e') in 0.207780 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.565040 seconds.
-  path: Assets/Graphics/Shaders/BackGroundTiles.shadergraph
-  artifactKey: Guid(e9a783043f28ff547823ebe1fd5d8abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Shaders/BackGroundTiles.shadergraph using Guid(e9a783043f28ff547823ebe1fd5d8abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd107f0920ac335bc2604754cec60e2f0') in 0.011319 seconds 
+  Time since last request: 0.001693 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/Link@2x.png
+  artifactKey: Guid(9a235474413e1f349b010b461c76efac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/Link@2x.png using Guid(9a235474413e1f349b010b461c76efac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa312a053b0846b40f54f5ed4488230e') in 0.164128 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.896850 seconds.
-  path: Assets/Graphics/Shaders/BackGroundTiles.shadergraph
-  artifactKey: Guid(e9a783043f28ff547823ebe1fd5d8abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Shaders/BackGroundTiles.shadergraph using Guid(e9a783043f28ff547823ebe1fd5d8abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85388f830d782d8a38db33c2e8a7d421') in 0.021109 seconds 
+  Time since last request: 0.010434 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/loading@2x.png
+  artifactKey: Guid(5dbc069eb79bd4d43840847264d6d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/loading@2x.png using Guid(5dbc069eb79bd4d43840847264d6d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e721b10f4aff9ca9724493e2d3cf94f') in 0.115168 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008346 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.159 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2160ms)
+		BeginReloadAssembly (262ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (1760ms)
+			LoadAssemblies (225ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (664ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (607ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (211ms)
+				ProcessInitializeOnLoadAttributes (357ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3273 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.6 MB.
+System memory in use after: 141.1 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3849.
+Total: 9.735759 ms (FindLiveObjects: 0.631829 ms CreateObjectMapping: 0.188851 ms MarkObjects: 8.065774 ms  DeleteObjects: 0.847210 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 157.656211 seconds.
-  path: Assets/Graphics/Shaders/BackGroundTiles.shadergraph
-  artifactKey: Guid(e9a783043f28ff547823ebe1fd5d8abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Shaders/BackGroundTiles.shadergraph using Guid(e9a783043f28ff547823ebe1fd5d8abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cf3b31a1f1b531818ada96cb94f051') in 0.918618 seconds 
+  Time since last request: 731.817223 seconds.
+  path: Assets/Graphics/Animations/Options.controller
+  artifactKey: Guid(4183caab97454d64f92edb17700c24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Animations/Options.controller using Guid(4183caab97454d64f92edb17700c24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67dd72e55f811af6aad6b172464133a9') in 0.089784 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.326384 seconds.
-  path: Assets/Graphics/Shaders/BackGroundTiles.shadergraph
-  artifactKey: Guid(e9a783043f28ff547823ebe1fd5d8abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Shaders/BackGroundTiles.shadergraph using Guid(e9a783043f28ff547823ebe1fd5d8abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f06368f6abdf33bd354fd8feff97f6') in 0.020328 seconds 
+  Time since last request: 16.593117 seconds.
+  path: Assets/Graphics/Animations
+  artifactKey: Guid(368750dc4c9a4c24db5ff527fb993860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Animations using Guid(368750dc4c9a4c24db5ff527fb993860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9008d10218c3dd72d994157c4679b28a') in 0.019500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.789113 seconds.
+  path: Assets/Graphics/Animations/Close.anim
+  artifactKey: Guid(a25e2fb80ba93c34f80582dda923eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Animations/Close.anim using Guid(a25e2fb80ba93c34f80582dda923eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8b6fb7254dea7d58fbaafe455346a9') in 0.037667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.060191 seconds.
+  path: Assets/Graphics/Animations/Open.anim
+  artifactKey: Guid(4ecd60937cc903d42acdb1cd0c36e22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Animations/Open.anim using Guid(4ecd60937cc903d42acdb1cd0c36e22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdb746910d601f957a9cc24ec22b23d') in 0.020636 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
